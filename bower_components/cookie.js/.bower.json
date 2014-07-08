@@ -1,0 +1,25 @@
+{
+  "name": "cookie.js",
+  "version": "0.1.0",
+  "main": "cookie.min.js",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules"
+  ],
+  "devDependencies": {
+    "expect": "~0.2",
+    "mocha": "~1.16"
+  },
+  "homepage": "https://github.com/sasaplus1/cookie.js",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "7480433f46882e9209f0b74341cd39505df7d07f"
+  },
+  "_source": "git://github.com/sasaplus1/cookie.js.git",
+  "_target": "~0.1.0",
+  "_originalSource": "cookie.js",
+  "_direct": true
+}

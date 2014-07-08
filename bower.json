@@ -1,0 +1,9 @@
+{
+  "name": "Mini Dota2 War",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.3",
+    "foundation": "zurb/bower-foundation#~5.3.0",
+    "cookie.js": "~0.1.0"
+  }
+}

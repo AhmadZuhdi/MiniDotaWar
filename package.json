@@ -1,0 +1,21 @@
+{
+  "name": "Template",
+  "version": "0.0.1",
+  "description": "Template",
+  "dependencies": {
+    "colors": "^0.6.2",
+    "express": "^4.4.5",
+    "filesystem": "^1.0.1",
+    "grunt": "^0.4.5",
+    "path": "^0.4.9",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "colors": "^0.6.2",
+    "express": "^4.4.5",
+    "filesystem": "^1.0.1",
+    "grunt": "^0.4.5",
+    "path": "^0.4.9",
+    "underscore": "^1.6.0"
+  }
+}
