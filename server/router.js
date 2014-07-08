@@ -3,6 +3,7 @@ var router = router || {};
 var deps = require('./deps');
 var config = require('./config');
 var rootpath = config.path.rootpath;
+
 router.init = function()
 {
 	deps.express.listen(config.server.port, function()
@@ -19,10 +20,11 @@ router.loadAllRoute = function()
 
 	deps.express.get('/', function(req, res)
 	{
-		res.send('hai');
+		// res.send('hai');
+		res.sendfile(rootpath + '/index.html');
 	});
 
-	deps.express.get('/:folder(js|css|img|image|images)/:subfolder(*)', function(req, res)
+	deps.express.get('/:folder(js|css|img|image|images|fonts)/:subfolder(*)', function(req, res)
 	{
 		var params = req.params;
 

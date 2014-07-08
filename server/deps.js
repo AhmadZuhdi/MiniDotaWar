@@ -4,6 +4,7 @@ deps.fs = require('fs');
 deps.path = require('path');
 deps.express = require('express')();
 deps.http = require('http').Server(deps.express);
+deps.compressor = require('node-minify');
 deps.color = require('colors');
 
 deps.color.setTheme({

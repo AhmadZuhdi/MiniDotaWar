@@ -16,7 +16,8 @@ config.server =
 
 config.path = {
 
-	rootpath: deps.path.normalize(__dirname + '/../')
+	rootpath: deps.path.normalize(__dirname + '/../'),
+	bower: deps.path.normalize(__dirname + '/../bower_components')
 
 };
 
