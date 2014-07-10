@@ -3,11 +3,14 @@
   "version": "0.0.1",
   "description": "Template",
   "dependencies": {
+    "async": "^0.9.0",
     "colors": "^0.6.2",
     "express": "^4.4.5",
     "filesystem": "^1.0.1",
     "grunt": "^0.4.5",
+    "nedb": "^0.10.6",
     "path": "^0.4.9",
+    "socket.io": "^1.0.6",
     "underscore": "^1.6.0"
   },
   "devDependencies": {

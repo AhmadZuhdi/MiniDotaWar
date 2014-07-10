@@ -6,11 +6,13 @@ var rootpath = config.path.rootpath;
 
 router.init = function()
 {
-	deps.express.listen(config.server.port, function()
+	deps.http.listen(config.server.port, function()
 	{
 		console.log('listening *:' + config.server.port);
 
 		router.loadAllRoute();
+
+		return router;
 	})
 };
 
@@ -23,6 +25,16 @@ router.loadAllRoute = function()
 		// res.send('hai');
 		res.sendfile(rootpath + '/index.html');
 	});
+
+	deps.express.get('/register', function(req, res)
+	{
+		res.sendfile(rootpath + '/page/register.html');
+	})
+
+	deps.express.get('/login', function(req, res)
+	{
+		res.sendfile(rootpath + '/page/login.html');
+	})
 
 	deps.express.get('/:folder(js|css|img|image|images|fonts)/:subfolder(*)', function(req, res)
 	{

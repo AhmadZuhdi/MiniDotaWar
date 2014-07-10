@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MDW :: Register</title>
+	<link rel="stylesheet" href="/css/app.min.css">
+</head>
+<body>
+	
+	<nav class="top-bar" data-topbar>
+		<ul class="title-area">
+			<li class="name">
+				<h1>
+					<a href="#">MiniDotaWar</a>
+				</h1>
+			</li>
+
+			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		</ul>
+
+		<section class="top-bar-section">
+			<ul class="left">
+				<li>
+					<a href="#">Home</a>
+				</li>
+			</ul>
+		</section>
+	</nav>
+
+	<div class="row">
+
+		<div class="small-2 columns"></div>
+
+		<div class="large-6 columns">
+		
+			<form id="login-form">
+				
+				<div class="large-12 columns">
+					<label>
+						Username : 
+						<input type="text" name="username" id="username" placeholder="username or email" required>
+					</label>
+				</div>
+
+				<div class="large-12 columns">
+					<label for="">
+						Password : 
+						<input type="password" placeholder="password" name="password" id="password" required>
+					</label>
+				</div>
+
+				<button type="submit" class="button right tiny">Login</button>
+
+			</form>
+
+		</div>
+
+		<div class="small-2 columns"></div>
+
+	</div>
+
+	<script src="/js/app.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/js/client.app.min.js"></script>
+</body>
+</html>
